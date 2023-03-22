@@ -1,0 +1,52 @@
+.App {
+  height: 100%;
+}
+
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  text-transform: none;
+}
+
+.title img {
+  margin: 0;
+  width: 40vw;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.title p {
+  margin: -20px 0 0 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.about-gillian p {
+  margin: 0;
+  line-height: 0.95;
+}
+
+em {
+  color: #42affa;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.student-lab {
+  img {
+    height: 400px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
