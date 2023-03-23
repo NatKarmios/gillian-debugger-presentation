@@ -8,14 +8,17 @@
   text-transform: none;
 }
 
-.title img {
-  margin: 0;
-  width: 40vw;
+img {
   -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
   user-drag: none;
+}
+
+.title img {
+  margin: 0;
+  width: 40vw;
 }
 
 .title p {
@@ -49,4 +52,45 @@ em {
   p {
     margin: 0;
   }
+}
+
+.grid {
+  display: grid;
+  grid-auto-columns: min-content 1fr;
+  column-gap: 20px;
+}
+
+.grid > div {
+  grid-column: 1;
+  align-self: center;
+  justify-self: right;
+}
+
+.grid > img {
+  grid-column: 2;
+}
+
+.hljs-decl {
+  color: #c678dd;
+}
+
+.hljs-keyword {
+  color: #8deafd;
+}
+
+.hljs-literal {
+  color: #fffbb2;
+}
+
+.hljs-operator {
+  color: #56b6c2;
+}
+
+.inactive {
+  opacity: 0.2;
+}
+
+.box {
+  width: 500px;
+  text-align: left;
 }

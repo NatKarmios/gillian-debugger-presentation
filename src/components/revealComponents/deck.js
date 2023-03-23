@@ -1,15 +1,17 @@
 import React, { useEffect } from 'react';
 import Reveal from 'reveal.js';
-import RevealNotes from 'reveal.js/plugin/notes/notes';
 import PropTypes from 'prop-types';
 import revealOptions from './revealOptions';
+import wislHighlight from './wislHighlight';
 
 export default function Deck({ options, children }) {
   useEffect(() => {
     Reveal.initialize({
-      plugins: [RevealNotes],
       ...revealOptions,
       ...options,
+      highlight: {
+        beforeHighlight: (hljs) => hljs.registerLanguage('wisl', wislHighlight),
+      },
     });
   });
   return (

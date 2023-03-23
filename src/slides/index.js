@@ -6,6 +6,7 @@ import WhyDebug from './whyDebug';
 import Challenges from './challenges';
 import StudentLab from './studentLab';
 import Future from './future';
+import Demo from './demo';
 import Outtro from './outtro';
 
 export default function Slides() {
@@ -18,6 +19,7 @@ export default function Slides() {
       <Challenges />
       <StudentLab />
       <Future />
+      <Demo />
       <Outtro />
     </>
   );

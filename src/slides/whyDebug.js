@@ -44,10 +44,9 @@ export default function WhyDebug() {
           </p>
           <Note>
             <ul>
-              <li>But why do we even need a debugger?</li>
               <li>
                 Because this is what we&apos;ve used until now; gigabytes of
-                text, ctrl+f, and a dream
+                text, ctrl+f, and a dream. &lt;RET&gt;
               </li>
               <li>
                 Verifying even a basic program in a toy language, like linked
@@ -60,7 +59,7 @@ export default function WhyDebug() {
       </section>
       <section>
         <section data-auto-animate>
-          <p>Can we do better?</p>
+          <h2>Can we do better?</h2>
           <Note>
             <ul>
               <li>Can we do better?</li>
@@ -68,7 +67,7 @@ export default function WhyDebug() {
           </Note>
         </section>
         <section data-auto-animate>
-          <p>Can we do better?</p>
+          <h2>Can we do better?</h2>
           <p>Here&apos;s our progress.</p>
           <img
             src={debuggerImg}
@@ -76,7 +75,6 @@ export default function WhyDebug() {
           />
           <Note>
             <ul>
-              <li>Can we do better?</li>
               <li>Well, we&apos;re certainly trying.</li>
               <li>
                 Over the past year, I&apos;ve built a bespoke interface for

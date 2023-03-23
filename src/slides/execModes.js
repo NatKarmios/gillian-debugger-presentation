@@ -19,7 +19,6 @@ export default function ExecModes() {
         </ul>
         <Note>
           <ul>
-            <li>Gillian has 3 main execution modes:</li>
             <li>Running user-defined symbolic tests</li>
           </ul>
         </Note>
@@ -32,8 +31,6 @@ export default function ExecModes() {
         </ul>
         <Note>
           <ul>
-            <li>Gillian has 3 main execution modes:</li>
-            <li>Running user-defined symbolic tests</li>
             <li>
               Full-program verification, using pre- and post-conditions, loop
               invariants, etc.
@@ -50,12 +47,6 @@ export default function ExecModes() {
         </ul>
         <Note>
           <ul>
-            <li>Gillian has 3 main execution modes:</li>
-            <li>Running user-defined symbolic tests</li>
-            <li>
-              Full-program verification, using pre- and post-conditions, loop
-              invariants, etc.
-            </li>
             <li>And automated testing with bi-abduction</li>
           </ul>
         </Note>
@@ -72,13 +63,6 @@ export default function ExecModes() {
         </ul>
         <Note>
           <ul>
-            <li>Gillian has 3 main execution modes:</li>
-            <li>Running user-defined symbolic tests</li>
-            <li>
-              Full-program verification, using pre- and post-conditions, loop
-              invariants, etc.
-            </li>
-            <li>And automated testing with bi-abduction.</li>
             <li>
               At the moment, we&apos;re only thinking about debugging
               full-program verification.

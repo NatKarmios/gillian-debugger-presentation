@@ -23,7 +23,6 @@ export default function AboutGillian() {
 
         <Note>
           <ul>
-            <li>For the uninitiated, Gillian is a symbolic execution engine</li>
             <li>
               It&apos;s compositional, meaning functions can be analysed
               individually
@@ -43,11 +42,6 @@ export default function AboutGillian() {
 
         <Note>
           <ul>
-            <li>For the uninitiated, Gillian is a symbolic execution engine</li>
-            <li>
-              It&apos;s compositional, meaning functions can be analysed
-              individually
-            </li>
             <li>It&apos;s parametric across source languages</li>
           </ul>
         </Note>
@@ -68,12 +62,6 @@ export default function AboutGillian() {
 
         <Note>
           <ul>
-            <li>For the uninitiated, Gillian is a symbolic execution engine</li>
-            <li>
-              It&apos;s compositional, meaning functions can be analysed
-              individually
-            </li>
-            <li>It&apos;s parametric across source languages</li>
             <li>And it tests, verifies, and analyses programs</li>
           </ul>
         </Note>
