@@ -39,7 +39,9 @@ export default function Demo() {
         <h2>Demo time!</h2>
         <Note>
           <ul>
-            <li>I think it&apos;s about time you see it in action.</li>
+            <li>
+              I think it&apos;s about time you see the debugger in action.
+            </li>
           </ul>
         </Note>
       </section>

@@ -27,12 +27,12 @@ export default function ExecModes() {
         <p>Gillian performs:</p>
         <ul>
           <li>user-defined symbolic testing</li>
-          <li>full-program verification</li>
+          <li>compositional verification</li>
         </ul>
         <Note>
           <ul>
             <li>
-              Full-program verification, using pre- and post-conditions, loop
+              Compositional verification, using pre- and post-conditions, loop
               invariants, etc.
             </li>
           </ul>
@@ -42,7 +42,7 @@ export default function ExecModes() {
         <p>Gillian performs:</p>
         <ul>
           <li>user-defined symbolic testing</li>
-          <li>full-program verification</li>
+          <li>compositional verification</li>
           <li>automated testing via bi-abduction</li>
         </ul>
         <Note>
@@ -55,7 +55,7 @@ export default function ExecModes() {
         <p>Gillian performs:</p>
         <ul>
           <li>user-defined symbolic testing</li>
-          <li>full-program verification</li>
+          <li>compositional verification</li>
           <em style={{ fontSize: '0.8em' }}>
             &#x2BA4; current focus for debugging
           </em>

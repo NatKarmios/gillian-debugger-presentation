@@ -34,9 +34,8 @@ export default function Interpreter() {
       <Note>
         <ul>
           <li>
-            Originally, Gillian simply executed programs to completion,
-            executing one symbolic branch after another, depth first.
-            &lt;RET&gt;
+            Originally, Gillian simply executed programs to completion, one
+            symbolic branch after another, depth first. &lt;RET&gt;
           </li>
           <li>
             Naturally, we need more control when debugging, so the interpreter
@@ -46,7 +45,7 @@ export default function Interpreter() {
           <li>
             But we don&apos;t just want to control when to execute, but what to
             execute. The thunks returned by the interpreter now support
-            specifying which branch to execute.
+            specifying which branch to consider next.
           </li>
         </ul>
       </Note>

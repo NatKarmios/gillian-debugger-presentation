@@ -45,8 +45,8 @@ export default function Future() {
               we&apos;re looking to add support for more source languages.
             </li>
             <li>
-              currently, Gillian supports a simple WHILE language, C, and
-              JavaScript, with Rust on the horizon.
+              Currently, Gillian supports our simple WHILE language, as well as
+              C and JavaScript, with Rust on the horizon.
             </li>
             <li>
               This will broaden both our potential userbase, and our ability to

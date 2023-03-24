@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img/logo_dark.svg';
+import logo from '../img/logo_light.svg';
 
 export default function titleSlide() {
   return (

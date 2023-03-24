@@ -28,10 +28,10 @@ export default function StudentLab() {
           <ul>
             <li>
               Last November, we ran a 2-hour lab for students attending
-              Philippa&apos; separation logic course, where they used the
+              Philippa&apos;s separation logic course, where they used the
               debugger to find and add missing logic commands to list algorithms
             </li>
-            <li>Feedback was very positive!</li>
+            <li>Feedback was overwhelmingly positive!</li>
           </ul>
         </Note>
       </section>

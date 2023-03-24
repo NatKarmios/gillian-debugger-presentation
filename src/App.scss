@@ -70,6 +70,10 @@ em {
   grid-column: 2;
 }
 
+.reveal pre code {
+  scrollbar-color: #ffffff80 #ffffff00;
+}
+
 .hljs-decl {
   color: #c678dd;
 }
@@ -93,4 +97,13 @@ em {
 .box {
   width: 500px;
   text-align: left;
+}
+
+pre {
+  border-radius: 5px;
+  height: 485px;
+
+  code::-webkit-scrollbar {
+    width: 5px;
+  }
 }

@@ -15,8 +15,8 @@ export default function Traces() {
               in the program, regardless of where execution is now.
             </li>
             <li>
-              To this end, the full execution trace is logged to a database,
-              which can be queried at will.
+              To this end, the full trace is logged to a database, which can be
+              queried at will.
             </li>
             <li>
               This was originally a naive implementation, depending on

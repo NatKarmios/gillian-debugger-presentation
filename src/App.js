@@ -4,7 +4,7 @@ import Deck from './components/revealComponents/deck';
 import Slides from './slides';
 
 import 'reveal.js/dist/reveal.css';
-import 'reveal.js/dist/theme/black.css';
+import 'reveal.js/dist/theme/white.css';
 import 'reveal.js/plugin/highlight/monokai.css';
 import './App.scss';
 
