@@ -6,37 +6,42 @@ export default function Future() {
     <section>
       <section data-auto-animate>
         <h2>Where to next?</h2>
-        <ul className="box" />
         <Note>
           <ul>
-            <li>Looking to the future...</li>
+            <li>Given where we are, what are we reaching for next?</li>
           </ul>
         </Note>
       </section>
       <section data-auto-animate>
         <h2>Where to next?</h2>
         <ul className="box">
-          <li>Gillian 2.0</li>
+          <li>
+            <em>Debugger:</em>
+            more usability
+          </li>
         </ul>
         <Note>
           <ul>
+            <li>Could you see yourself, or your team, using this debugger?</li>
             <li>
-              As we continue to improve Gillian and the theory behind it,
-              we&apos;re considering major changes to Gillian&apos;s internals.
+              If not, is it because we&apos;re missing something, such as
+              bi-abduction?
             </li>
-            <li>
-              This will involve an emphasis on developer experience, increasing
-              the viability of your team&apos;s language being verifiable in
-              Gillian.
-            </li>
+            <li>What do you think we should focus on?</li>
           </ul>
         </Note>
       </section>
       <section data-auto-animate>
         <h2>Where to next?</h2>
         <ul className="box">
-          <li className="inactive">Gillian 2.0</li>
-          <li>More source languages!</li>
+          <li className="inactive">
+            <em>Debugger:</em>
+            more usability
+          </li>
+          <li>
+            <em>Gillian:</em>
+            more languages
+          </li>
         </ul>
         <Note>
           <ul>
@@ -49,8 +54,8 @@ export default function Future() {
               C and JavaScript, with Rust on the horizon.
             </li>
             <li>
-              This will broaden both our potential userbase, and our ability to
-              evaluate against related but language-specific tools.
+              This would broaden both our potential userbase, and our ability to
+              evaluate against related tools for other languages.
             </li>
           </ul>
         </Note>
@@ -58,16 +63,28 @@ export default function Future() {
       <section data-auto-animate>
         <h2>Where to next?</h2>
         <ul className="box">
-          <li className="inactive">Gillian 2.0</li>
-          <li className="inactive">More source languages!</li>
-          <li>Symbolic DAP extension</li>
+          <li className="inactive">
+            <em>Debugger:</em>
+            more usability
+          </li>
+          <li className="inactive">
+            <em>Gillian:</em>
+            more languages
+          </li>
+          <li>
+            <em>DAP extensions:</em>
+            more use cases?
+          </li>
         </ul>
         <Note>
           <ul>
             <li>
               As touched upon before, we think we might be onto something with
-              our symbolic DAP extensions; if you think your tool could benefit
-              from this protocol, or an interface like ours, do let us know!
+              our symbolic DAP extensions.
+            </li>
+            <li>
+              If you think your tool could benefit from this protocol, or an
+              interface like ours, do let us know!
             </li>
           </ul>
         </Note>
