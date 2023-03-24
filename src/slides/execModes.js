@@ -65,7 +65,7 @@ export default function ExecModes() {
           <ul>
             <li>
               At the moment, we&apos;re only thinking about debugging
-              full-program verification.
+              verification.
             </li>
           </ul>
         </Note>

@@ -9,10 +9,10 @@ export default function Challenges() {
     <section>
       <section>
         <h2>Some interesting technical challenges</h2>
-        <em>(if we have time)</em>
+        <em>(that you might relate to)</em>
         <Note>
-          This came with some interesting technical challenges, which we&apos;re
-          interested to see if anyone else relates to.
+          This came with some interesting - and perhaps relatable - technical
+          challenges.
         </Note>
       </section>
       <Interpreter />

@@ -12,8 +12,8 @@ export default function Traces() {
         <Note>
           <ul>
             <li>
-              We want to be able to inspect symbolic state at any previous point
-              in the program, regardless of where execution is now.
+              Regardless of where execution currently is, we want to see what
+              states came before.
             </li>
           </ul>
         </Note>
@@ -24,12 +24,11 @@ export default function Traces() {
         <Note>
           <ul>
             <li>
-              To this end, the full trace is logged to a database, which can be
-              queried at will.
+              To this end, the full trace is logged to an on-disk SQL database.
             </li>
             <li>
-              This was originally a naive implementation, depending on
-              time-of-insertion to derive order.
+              This was pretty naive at fist, deriving the order of nodes from
+              their timestamps.
             </li>
             <li>
               Ideally, we want the shape of the logs to resemble the shape of
@@ -43,15 +42,15 @@ export default function Traces() {
         <img src={logStructureImg} alt="Gillian's log structure" />
         <Note>
           <ul>
-            <li>...and now they do.</li>
+            <li>...and it does.</li>
             <li>
-              While we&apos;re happy with the functionality on offer here, we
-              need to address performance, as logging is quickly becoming a
-              bottleneck.
+              While the functionality&apos;s all there, logging is our biggest
+              performance bottleneck.
             </li>
             <li>
-              There&apos;s some low-hanging fruit to help this, but we&apos;re
-              interested in seeing how other projects tackle it.
+              There&apos;s some low-hanging fruit to improve this, but
+              we&apos;re interested in seeing how the state of the art tackles
+              this problem.
             </li>
           </ul>
         </Note>

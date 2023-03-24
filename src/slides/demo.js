@@ -51,20 +51,18 @@ export default function Demo() {
         <Note>
           <ul>
             <li>
-              As a quick example, I&apos;ll take you on a tour of a verification
-              of a simple function, recursive linked-list length, in WISL, our
-              toy language. &lt;RET&gt;
+              I&apos;ll quickly talk you through verifying recursive linked-list
+              length in WISL, our toy language. &lt;RET&gt;
             </li>
             <li>
-              This is the function body; nothing out of the ordinary.
+              Here&apos;s the function body; nothing out of the ordinary.
               &lt;RET&gt;
             </li>
             <li>
-              We have a precondition requiring that we have a list, and a
-              postcondition ensuring that the list still exists, and we are in
-              fact returning the length. &lt;RET&gt;
+              We have a pre- and post-condition describing the list in memory
+              and the return value. &lt;RET&gt;
             </li>
-            <li>This spec uses a simple list predicate.</li>
+            <li>...and the definition of the list predicate.</li>
           </ul>
         </Note>
       </section>

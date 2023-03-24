@@ -34,18 +34,17 @@ export default function Interpreter() {
       <Note>
         <ul>
           <li>
-            Originally, Gillian simply executed programs to completion, one
-            symbolic branch after another, depth first. &lt;RET&gt;
+            Originally, Gillian simply executed the whole program, in one go.
+            &lt;RET&gt;
           </li>
           <li>
-            Naturally, we need more control when debugging, so the interpreter
-            was changed to execute one command at a time, and return a thunk to
-            execute the next. &lt;RET&gt;
+            Naturally, we need more control when debugging, so we split
+            execution into thunks, with each call executing one command.
+            &lt;RET&gt;
           </li>
           <li>
             But we don&apos;t just want to control when to execute, but what to
-            execute. The thunks returned by the interpreter now support
-            specifying which branch to consider next.
+            execute; those thunk calls can now specify which branch to step in.
           </li>
         </ul>
       </Note>

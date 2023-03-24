@@ -13,8 +13,8 @@ export default function DAP() {
         <Note>
           <ul>
             <li>
-              The first debugger iteration used the Debug Adapter Protocol to
-              leverage existing debugger frontends
+              Our first shot at debugging used the Debug Adapter Protocol (the
+              DAP) to work with existing debugger frontends.
             </li>
             <li>
               But it quickly became apparent that this wasn&apos;t expressive
@@ -29,13 +29,12 @@ export default function DAP() {
         <Note>
           <ul>
             <li>
-              Luckily, both VSCode and OCaml&apos;s DAP library are extensible,
-              so I added this missing expressivity, along with a custom
-              interface.
+              Luckily, the DAP is extensible, so I added this missing
+              expressivity, along with a custom interface in VSCode.
             </li>
             <li>
               We think there&apos;s some potential for these DAP extensions, and
-              even the interface, to find use outside Gillian.
+              perhaps even the interface, to be useful outside of Gillian.
             </li>
           </ul>
         </Note>

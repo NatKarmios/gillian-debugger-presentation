@@ -3,6 +3,7 @@ import Title from './title';
 import AboutGillian from './aboutGillian';
 import ExecModes from './execModes';
 import WhyDebug from './whyDebug';
+import DebugIntro from './debugIntro';
 import Challenges from './challenges';
 import StudentLab from './studentLab';
 import Future from './future';
@@ -16,6 +17,7 @@ export default function Slides() {
       <AboutGillian />
       <ExecModes />
       <WhyDebug />
+      <DebugIntro />
       <Challenges />
       <StudentLab />
       <Demo />

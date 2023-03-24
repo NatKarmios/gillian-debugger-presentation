@@ -26,12 +26,13 @@ export default function StudentLab() {
         </p>
         <Note>
           <ul>
+            <li>And what better source is there than students?</li>
             <li>
-              Last November, we ran a 2-hour lab for students attending
-              Philippa&apos;s separation logic course, where they used the
-              debugger to find and add missing logic commands to list algorithms
+              Last November, we ran a 2-hour lab at the end of Philippa&apos;s
+              separation logic course, where students used the debugger to fix
+              the specs of list algorithms.
             </li>
-            <li>Feedback was overwhelmingly positive!</li>
+            <li>The feedback was overwhelmingly positive!</li>
           </ul>
         </Note>
       </section>
