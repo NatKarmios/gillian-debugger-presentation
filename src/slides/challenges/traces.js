@@ -2,6 +2,7 @@ import React from 'react';
 import Note from '../../components/revealComponents/note';
 
 import logStructureImg from '../../img/log_structure.png';
+import oldLogStructureImg from '../../img/log_structure_old.png';
 
 export default function Traces() {
   return (
@@ -14,6 +15,14 @@ export default function Traces() {
               We want to be able to inspect symbolic state at any previous point
               in the program, regardless of where execution is now.
             </li>
+          </ul>
+        </Note>
+      </section>
+      <section data-auto-animate>
+        <h3>Tracing execution</h3>
+        <img src={oldLogStructureImg} alt="Gillian's log structure" />
+        <Note>
+          <ul>
             <li>
               To this end, the full trace is logged to a database, which can be
               queried at will.

@@ -18,8 +18,8 @@ export default function Slides() {
       <WhyDebug />
       <Challenges />
       <StudentLab />
-      <Future />
       <Demo />
+      <Future />
       <Outtro />
     </>
   );
