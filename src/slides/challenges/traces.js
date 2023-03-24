@@ -50,8 +50,8 @@ export default function Traces() {
               bottleneck.
             </li>
             <li>
-              We have steps to help this, but we&apos;re interested in exploring
-              more intelligent solutions.
+              There&apos;s some low-hanging fruit to help this, but we&apos;re
+              interested in seeing how other projects tackle it.
             </li>
           </ul>
         </Note>

@@ -57,12 +57,12 @@ export default function AboutGillian() {
         <p>symbolic execution engine.</p>
         <p>&nbsp;</p>
         <p>
-          <em>...for testing, verification and analysis.</em>
+          <em>...for testing and verification.</em>
         </p>
 
         <Note>
           <ul>
-            <li>And it tests, verifies, and analyses programs</li>
+            <li>And it tests and verifies programs</li>
           </ul>
         </Note>
       </section>
