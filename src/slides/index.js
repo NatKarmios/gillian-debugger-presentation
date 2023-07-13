@@ -4,7 +4,8 @@ import AboutGillian from './aboutGillian';
 import ExecModes from './execModes';
 import WhyDebug from './whyDebug';
 import DebugIntro from './debugIntro';
-import Challenges from './challenges';
+import GillianHistory from './gillianHistory';
+import Pipeline from './pipeline';
 import StudentLab from './studentLab';
 import Future from './future';
 import Demo from './demo';
@@ -18,9 +19,10 @@ export default function Slides() {
       <ExecModes />
       <WhyDebug />
       <DebugIntro />
-      <Challenges />
-      <StudentLab />
+      <GillianHistory />
+      <Pipeline />
       <Demo />
+      <StudentLab />
       <Future />
       <Outtro />
     </>

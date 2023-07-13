@@ -33,7 +33,31 @@ img {
 }
 
 em {
+  font-style: italic;
   color: #42affa;
+}
+
+.exec-modes em,
+.gillian-history em,
+.future-plans em {
+  font-size: 0.8em;
+}
+
+.future-plans em {
+  display: inline-block;
+  font-size: 0.8em;
+  transform: translateY(-30%);
+}
+
+.gillian-history h3 {
+  margin: 0 !important;
+}
+
+.gillian-history .subtitle {
+  font-style: italic;
+  color: #42affa !important;
+  font-size: 0.8em !important;
+  margin-top: 0;
 }
 
 .row {

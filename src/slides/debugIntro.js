@@ -2,7 +2,7 @@ import React from 'react';
 import Note from '../components/revealComponents/note';
 import debuggerImg from '../img/debugger.png';
 
-export default function WhyDebug() {
+export default function DebugIntro() {
   return (
     <section>
       <section data-auto-animate>

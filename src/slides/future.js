@@ -3,95 +3,79 @@ import Note from '../components/revealComponents/note';
 
 export default function Future() {
   return (
-    <section>
+    <section className="future-plans">
       <section data-auto-animate>
-        <h2>Where to next?</h2>
-        <Note>
-          <ul>
-            <li>Given where we are, what are we reaching for next?</li>
-          </ul>
-        </Note>
+        <h2>What now?</h2>
+        <Note>Given where we are, what are we reaching for next?</Note>
       </section>
       <section data-auto-animate>
-        <h2>Where to next?</h2>
-        <ul className="box">
+        <h2>What now?</h2>
+        <ul>
           <li>
-            <em>Debugger:</em>
-            &nbsp;more usability
+            We&apos;re new to this!
+            <br />
+            <em>All advice is appreciated!</em>
           </li>
         </ul>
         <Note>
-          <ul>
-            <li>
-              User experience is the core motivation of the debugger, so
-              we&apos;ll continue to focus on it.
-            </li>
-            <li>
-              Of course we&apos;ll improve navigation, error reporting, and the
-              like, but we really want to ask: could you see yourself, or your
-              team, using this debugger?
-            </li>
-            <li>
-              If not, is it because we&apos;re missing something, such as
-              bi-abduction?
-            </li>
-            <li>And regardless, what do you think we should focus on?</li>
-          </ul>
+          First of all, this isn&nbsp;t our comfort zone as a group. Any advice,
+          whether it be for engineering or design, would be greatly appreciated.
         </Note>
       </section>
       <section data-auto-animate>
-        <h2>Where to next?</h2>
-        <ul className="box">
-          <li className="inactive">
-            <em>Debugger:</em>
-            &nbsp;more usability
+        <h2>What now?</h2>
+        <ul>
+          <li>
+            We&apos;re new to this!
+            <br />
+            <em>All advice is appreciated!</em>
           </li>
           <li>
-            <em>Gillian:</em>
-            &nbsp;more languages
+            Refining for education, then industry.
+            <br />
+            <em>Coursework later this year.</em>
           </li>
         </ul>
         <Note>
-          <ul>
-            <li>
-              Currently, we support our simple WHILE language, as well as C and
-              JavaScript, with Sacha hard at work on Rust.
-            </li>
-            <li>
-              To further establish Gillian&apos;s parametricity, we want to
-              support more source languages, so we can appeal to more users, and
-              evaluate against more tools in the field.
-            </li>
-          </ul>
+          <p>
+            While our student lab was a success, we want to take things further.
+            Ideally, we&apos;d like to run a coursework using Gillian&apos;s
+            debugger in the coming academic year.
+          </p>
+          <p>
+            We&apos;d also like to explore this debugger&apos;s potential in
+            industry...
+          </p>
         </Note>
       </section>
       <section data-auto-animate>
-        <h2>Where to next?</h2>
-        <ul className="box">
-          <li className="inactive">
-            <em>Debugger:</em>
-            &nbsp;more usability
-          </li>
-          <li className="inactive">
-            <em>Gillian:</em>
-            &nbsp;more languages
+        <h2>What now?</h2>
+        <ul>
+          <li>
+            <span className="item">We&apos;re new to this!</span>
+            <br />
+            <em>All advice is appreciated!</em>
           </li>
           <li>
-            <em>DAP extensions:</em>
-            &nbsp;more use cases?
+            Refining for education, then industry.
+            <br />
+            <em>Coursework later this year.</em>
+          </li>
+          <li>
+            Making our interface / protocol more general.
+            <br />
+            <em>Would anyone use it?</em>
           </li>
         </ul>
         <Note>
-          <ul>
-            <li>
-              As touched upon before, we think we might be onto something with
-              our symbolic DAP extensions, something more than just Gillian.
-            </li>
-            <li>
-              If you think your tool could benefit from this protocol, or an
-              interface like ours, do let us know!
-            </li>
-          </ul>
+          <p>
+            ...to that end, we looking into collaborating with Meta, to bring
+            our interface to Infer-Pulse.
+          </p>
+          <p>
+            Of course, we&apos;ll keep our eyes peeled for any other projects
+            that could make use of our work.
+          </p>
         </Note>
       </section>
     </section>
