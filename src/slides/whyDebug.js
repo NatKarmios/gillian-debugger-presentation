@@ -5,6 +5,9 @@ import fileLogScrollVid from '../img/file_log_scroll.mp4';
 import vscodeLogImg from '../img/vscode_log.png';
 import thisIsFineImg from '../img/this-is-fine.gif';
 
+// TODO: why can't we just use a normal debugger?
+// SMT solvers, branching paths, state matching
+
 export default function WhyDebug() {
   return (
     <section className="why-debug">

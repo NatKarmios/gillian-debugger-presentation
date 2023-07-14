@@ -59,8 +59,8 @@ export default function Demo() {
               &lt;RET&gt;
             </li>
             <li>
-              We have a pre- and post-condition describing the list in memory
-              and the return value. &lt;RET&gt;
+              We have a function specification describing the list in memory and
+              the return value. &lt;RET&gt;
             </li>
             <li>...and the definition of the list predicate.</li>
           </ul>

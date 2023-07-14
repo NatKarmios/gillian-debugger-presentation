@@ -18,7 +18,7 @@ export default function Future() {
           </li>
         </ul>
         <Note>
-          First of all, this isn&nbsp;t our comfort zone as a group. Any advice,
+          First of all, this isn&apos;t our comfort zone as a group. Any advice,
           whether it be for engineering or design, would be greatly appreciated.
         </Note>
       </section>
@@ -62,11 +62,12 @@ export default function Future() {
             <em>Coursework later this year.</em>
           </li>
           <li>
-            Making our interface / protocol more general.
+            Realising potential generality
             <br />
             <em>Would anyone use it?</em>
           </li>
         </ul>
+        {/* TODO: say i presented to meta in workshop */}
         <Note>
           <p>
             ...to that end, we looking into collaborating with Meta, to bring

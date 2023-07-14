@@ -22,9 +22,9 @@ export default function DebugIntro() {
         />
         <Note>
           <ul>
-            <li>Well, we&apos;re certainly trying.</li>
+            <li>Well, that&apos;s what I&apos;ve been working on.</li>
             <li>
-              Over the past year, I&apos;ve built a bespoke interface for
+              Since joining the group, I&apos;ve built a bespoke interface for
               debugging verification in VSCode, while upgrading Gillian to keep
               up.
             </li>

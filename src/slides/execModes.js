@@ -15,24 +15,24 @@ export default function ExecModes() {
       <section data-auto-animate>
         <p>Gillian performs:</p>
         <ul>
-          <li>user-defined symbolic testing</li>
+          <li>plain symbolic execution</li>
         </ul>
         <Note>
           <ul>
-            <li>Running user-defined symbolic tests</li>
+            <li>Symbolic execution, for running user-defined tests</li>
           </ul>
         </Note>
       </section>
       <section data-auto-animate>
         <p>Gillian performs:</p>
         <ul>
-          <li>user-defined symbolic testing</li>
+          <li>plain symbolic execution</li>
           <li>compositional verification</li>
         </ul>
         <Note>
           <ul>
             <li>
-              Compositional verification, using pre- and post-conditions, loop
+              Compositional verification, using function specifications, loop
               invariants, etc.
             </li>
           </ul>
@@ -41,7 +41,7 @@ export default function ExecModes() {
       <section data-auto-animate>
         <p>Gillian performs:</p>
         <ul>
-          <li>user-defined symbolic testing</li>
+          <li>plain symbolic execution</li>
           <li>compositional verification</li>
           <li>automated testing via bi-abduction</li>
         </ul>
@@ -54,11 +54,9 @@ export default function ExecModes() {
       <section data-auto-animate>
         <p>Gillian performs:</p>
         <ul>
-          <li>user-defined symbolic testing</li>
+          <li>plain symbolic execution</li>
           <li>compositional verification</li>
-          <em data-id="em1" style={{ fontSize: '0.8em' }}>
-            &#x2BA4; we started here
-          </em>
+          <p className="note">&#x2BA4; we started here</p>
           <li>automated testing via bi-abduction</li>
         </ul>
         <Note>
@@ -70,19 +68,17 @@ export default function ExecModes() {
       <section data-auto-animate>
         <p>Gillian performs:</p>
         <ul>
-          <li>user-defined symbolic testing</li>
-          <em style={{ fontSize: '0.8em', color: '#e9494b' }}>
+          <li>plain symbolic execution</li>
+          <p className="note" style={{ color: '#e9494b' }}>
             &#x2BA4; fresh out the oven!
-          </em>
+          </p>
           <li>compositional verification</li>
-          <em data-id="em1" style={{ fontSize: '0.8em' }}>
-            &#x2BA4; we started here
-          </em>
+          <p className="note">&#x2BA4; we started here</p>
           <li>automated testing via bi-abduction</li>
         </ul>
         <Note>
           <ul>
-            <li>...and just recently added support for symbolic testing.</li>
+            <li>...and just recently added support for symbolic debugging.</li>
           </ul>
         </Note>
       </section>
