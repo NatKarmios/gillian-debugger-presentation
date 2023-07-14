@@ -1,6 +1,6 @@
 import React from 'react';
 import Note from '../components/revealComponents/note';
-import debuggerImg from '../img/debugger.png';
+import debuggerImg from '../img/debugger-light.png';
 
 export default function DebugIntro() {
   return (
