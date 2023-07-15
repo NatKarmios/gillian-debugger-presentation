@@ -16,18 +16,24 @@ img {
   user-drag: none;
 }
 
-.title img {
-  margin: 0;
-  width: 40vw;
+.title {
+  .logo {
+    margin: 0;
+    width: 40vw;
+  }
+
+  .screenshot {
+    width: 60vw;
+  }
+
+  p {
+    margin: -20px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
 }
 
-.title p {
-  margin: -20px 0 0 0;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-}
-
-.about-gillian p {
+.what-is-gillian p {
   margin: 0;
   line-height: 0.95;
 }
@@ -43,21 +49,55 @@ em {
   font-size: 0.8em;
 }
 
+.tool-comparison table td {
+  text-align: center;
+}
+
+.tool-comparison table td:first-child {
+  text-align: left;
+  span {
+    color: #42affa;
+  }
+}
+
+.tool-comparison table thead {
+  font-weight: bold;
+}
+
 .future-plans em {
   display: inline-block;
   font-size: 0.8em;
   transform: translateY(-30%);
 }
 
-.gillian-history h3 {
+.title {
   margin: 0 !important;
 }
 
-.gillian-history .subtitle {
+.subtitle {
   font-style: italic;
   color: #42affa !important;
+}
+
+p.subtitle {
+  margin-top: 0 !important;
+}
+
+.subtitle.small {
   font-size: 0.8em !important;
-  margin-top: 0;
+}
+
+.todo {
+  font-style: italic;
+  color: #ff0000;
+}
+
+.todo::before {
+  content: "TODO: "
+}
+
+.blue {
+  color: #42affa !important;
 }
 
 .exec-modes .note {

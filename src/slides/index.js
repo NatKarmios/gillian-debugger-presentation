@@ -1,14 +1,12 @@
 import React from 'react';
 import Title from './title';
 import AboutGillian from './aboutGillian';
-import ExecModes from './execModes';
-import RelatedWork from './relatedWork';
-import WhyDebug from './whyDebug';
-import DebugIntro from './debugIntro';
-import GillianHistory from './gillianHistory';
-import Challenges from './challenges';
+import ToolComparisons from './toolComparisons';
+// import DebugIntro from './debugIntro';
+// import GillianHistory from './gillianHistory';
+import TechnicalDetails from './technicalDetails';
 import Advantages from './advantages';
-import Pipeline from './pipeline';
+// import Pipeline from './pipeline';
 import StudentLab from './studentLab';
 import Future from './future';
 import Demo from './demo';
@@ -19,18 +17,12 @@ export default function Slides() {
     <>
       <Title />
       <AboutGillian />
-      <ExecModes />
-      <RelatedWork />
-      <WhyDebug />
-      <DebugIntro />
-      <Pipeline />
-      <GillianHistory />
-      <Challenges />
       <Demo />
-      <section>
-        <p>Question mark</p>
-        <p>Talk about related work?</p>
-      </section>
+      <ToolComparisons />
+      {/* <DebugIntro /> */}
+      {/* <Pipeline /> */}
+      {/* <GillianHistory /> */}
+      <TechnicalDetails />
       <Advantages />
       <StudentLab />
       <Future />

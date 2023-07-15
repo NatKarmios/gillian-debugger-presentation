@@ -11,9 +11,16 @@ export default function Interpreter() {
       <h3>Controlling execution</h3>
       <div className="grid" style={{ display: 'grid' }}>
         <div>Original:</div>
+        <Note pad>
+          Originally, Gillian simply executed the whole program, in one go.
+        </Note>
         <img src={ogImg} alt="Original interpreter behaviour" />
         <div className="fragment" data-fragment-index="1">
           Thunked:
+          <Note>
+            Naturally, we need more control when debugging, so we split
+            execution into thunks, with each call executing one command.
+          </Note>
         </div>
         <img
           className="fragment"
@@ -23,6 +30,10 @@ export default function Interpreter() {
         />
         <div className="fragment" data-fragment-index="2">
           Branching:
+          <Note>
+            But we don&apos;t just want to control when to execute, but what to
+            execute; those thunk calls can now specify which branch to step in.
+          </Note>
         </div>
         <img
           className="fragment"
@@ -31,23 +42,6 @@ export default function Interpreter() {
           alt="Branching interpreter behaviour"
         />
       </div>
-      <Note>
-        <ul>
-          <li>
-            Originally, Gillian simply executed the whole program, in one go.
-            &lt;RET&gt;
-          </li>
-          <li>
-            Naturally, we need more control when debugging, so we split
-            execution into thunks, with each call executing one command.
-            &lt;RET&gt;
-          </li>
-          <li>
-            But we don&apos;t just want to control when to execute, but what to
-            execute; those thunk calls can now specify which branch to step in.
-          </li>
-        </ul>
-      </Note>
     </section>
   );
 }

@@ -13,7 +13,8 @@ export default function Advantages() {
         <p>
           <em>Flexibility</em>
         </p>
-        <p>(side-by-side view of exec-map and match-map)</p>
+        {/* TODO */}
+        <p className="todo">side-by-side view of exec-map and match-map</p>
         <Note>
           Given that our interface provides a general mechanism for displaying
           execution traces, we&apos;ve found a surprising level of flexibility,
@@ -27,7 +28,8 @@ export default function Advantages() {
         <p>
           <em>Clarity</em>
         </p>
-        <p>(view of nesting in maps)</p>
+        {/* TODO */}
+        <p className="todo">view of nesting in maps</p>
         <Note>
           The ability to nest parts of a trace inside others allows arbitrary
           amounts of detail to be offered to a user, without overwhelming them
@@ -39,7 +41,10 @@ export default function Advantages() {
         <p>
           <em>Generality</em>
         </p>
-        <p>(diagram of multiple tools and editors communicating via S-DAP)</p>
+        {/* TODO */}
+        <p className="todo">
+          diagram of multiple tools and editors communicating via S-DAP
+        </p>
         <Note>
           <p>
             Working with Gillian allows for parametricity across source

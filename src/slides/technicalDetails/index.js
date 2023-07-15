@@ -4,7 +4,7 @@ import DAP from './dap';
 import Interpreter from './interpreter';
 import Traces from './traces';
 
-export default function Challenges() {
+export default function TechnicalDetails() {
   return (
     <section>
       <section>

@@ -1,27 +1,19 @@
 import React from 'react';
-import Note from '../components/revealComponents/note';
+import Note from '../../components/revealComponents/note';
 
 export default function ExecModes() {
   return (
     <section className="exec-modes">
       <section data-auto-animate>
         <p>Gillian performs:</p>
-        <Note>
-          <ul>
-            <li>Gillian has 3 main execution modes</li>
-          </ul>
-        </Note>
+        <Note>Gillian has 3 main execution modes.</Note>
       </section>
       <section data-auto-animate>
         <p>Gillian performs:</p>
         <ul>
           <li>plain symbolic execution</li>
         </ul>
-        <Note>
-          <ul>
-            <li>Symbolic execution, for running user-defined tests</li>
-          </ul>
-        </Note>
+        <Note>Symbolic execution, for running user-defined tests</Note>
       </section>
       <section data-auto-animate>
         <p>Gillian performs:</p>
@@ -30,12 +22,8 @@ export default function ExecModes() {
           <li>compositional verification</li>
         </ul>
         <Note>
-          <ul>
-            <li>
-              Compositional verification, using function specifications, loop
-              invariants, etc.
-            </li>
-          </ul>
+          Compositional verification, using function specs, loop invariants,
+          etc.
         </Note>
       </section>
       <section data-auto-animate>
@@ -45,11 +33,7 @@ export default function ExecModes() {
           <li>compositional verification</li>
           <li>automated testing via bi-abduction</li>
         </ul>
-        <Note>
-          <ul>
-            <li>And automated testing with bi-abduction</li>
-          </ul>
-        </Note>
+        <Note>And automated testing with bi-abduction</Note>
       </section>
       <section data-auto-animate>
         <p>Gillian performs:</p>
@@ -59,11 +43,7 @@ export default function ExecModes() {
           <p className="note">&#x2BA4; we started here</p>
           <li>automated testing via bi-abduction</li>
         </ul>
-        <Note>
-          <ul>
-            <li>We started out with just verification debugging...</li>
-          </ul>
-        </Note>
+        <Note>We started out with just verification debugging...</Note>
       </section>
       <section data-auto-animate>
         <p>Gillian performs:</p>
@@ -77,9 +57,7 @@ export default function ExecModes() {
           <li>automated testing via bi-abduction</li>
         </ul>
         <Note>
-          <ul>
-            <li>...and just recently added support for symbolic debugging.</li>
-          </ul>
+          ...and just recently added support for regular symbolic debugging.
         </Note>
       </section>
     </section>

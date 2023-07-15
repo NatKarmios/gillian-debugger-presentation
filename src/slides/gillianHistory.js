@@ -76,7 +76,7 @@ export default function GillianHistory() {
           </li>
         </ul>
         <Note>
-          ...and last year, I broght everything together by refining the
+          ...and last year, I brought everything together by refining the
           structure of log traces, and creating a bespoke interface for
           navigating them while debugging.
         </Note>

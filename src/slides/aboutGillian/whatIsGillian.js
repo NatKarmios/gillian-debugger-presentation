@@ -1,18 +1,14 @@
 import React from 'react';
-import Note from '../components/revealComponents/note';
+import Note from '../../components/revealComponents/note';
 
-export default function AboutGillian() {
+export default function WhatIsGillian() {
   return (
-    <section className="about-gillian">
+    <section className="what-is-gillian">
       <section data-auto-animate>
         <p>Gillian is a</p>
         <p>symbolic execution engine.</p>
 
-        <Note>
-          <ul>
-            <li>For the uninitiated, Gillian is a symbolic execution engine</li>
-          </ul>
-        </Note>
+        <Note>For the uninitiated, Gillian is a symbolic execution engine</Note>
       </section>
       <section data-auto-animate>
         <p>Gillian is a</p>
@@ -22,12 +18,8 @@ export default function AboutGillian() {
         <p>symbolic execution engine.</p>
 
         <Note>
-          <ul>
-            <li>
-              It&apos;s compositional, meaning functions can be analysed
-              individually
-            </li>
-          </ul>
+          It&apos;s compositional, meaning functions can be analysed
+          individually
         </Note>
       </section>
       <section data-auto-animate>
@@ -40,11 +32,7 @@ export default function AboutGillian() {
         </p>
         <p>symbolic execution engine.</p>
 
-        <Note>
-          <ul>
-            <li>It&apos;s parametric across source languages</li>
-          </ul>
-        </Note>
+        <Note>It&apos;s parametric across source languages</Note>
       </section>
       <section data-auto-animate>
         <p>Gillian is a</p>
@@ -60,11 +48,7 @@ export default function AboutGillian() {
           <em>...for testing and verification.</em>
         </p>
 
-        <Note>
-          <ul>
-            <li>And it tests and verifies programs</li>
-          </ul>
-        </Note>
+        <Note>And it tests and verifies programs</Note>
       </section>
     </section>
   );
