@@ -1,8 +1,8 @@
 import React from 'react';
 import Note from '../../components/revealComponents/note';
 
-import logStructureImg from '../../img/log_structure.png';
-import oldLogStructureImg from '../../img/log_structure_old.png';
+import oldLogStructureImg from '../../img/log-structure-simple.png';
+import logStructureVideo from '../../img/log-structure.mp4';
 
 export default function Traces() {
   return (
@@ -18,31 +18,40 @@ export default function Traces() {
           </ul>
         </Note>
       </section>
-      <section data-auto-animate>
+      <section data-auto-animate data-transition="none">
         <h3>Tracing execution</h3>
         <img src={oldLogStructureImg} alt="Gillian's log structure" />
         <Note>
+          {/* TODO: rewrite */}
           <ul>
             <li>
               To this end, the full trace is logged to an on-disk SQL database.
             </li>
             <li>
-              This was pretty naive at fist, deriving the order of nodes from
-              their timestamps.
+              This was pretty naive at fist - traces had no structure, with each
+              action logged sequentially.
             </li>
             <li>
               Ideally, we want the shape of the logs to resemble the shape of
-              execution...
+              execution.
             </li>
           </ul>
         </Note>
       </section>
-      <section data-auto-animate>
+      <section data-transition="none">
         <h3>Tracing execution</h3>
-        <img src={logStructureImg} alt="Gillian's log structure" />
+        {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
+        <video
+          src={logStructureVideo}
+          data-autoplay
+          style={{ margin: 'var(--r-block-margin) 0' }}
+        />
         <Note>
           <ul>
-            <li>...and now it does.</li>
+            <li>
+              ...and after restructuring, now it does. The shape of logs are
+              much more intuitive
+            </li>
             <li>
               While the functionality&apos;s all there, logging is our biggest
               performance bottleneck.
