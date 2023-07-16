@@ -1,20 +1,17 @@
 import React from 'react';
 import logo from '../img/logo_light.svg';
 
-import debuggerImg from '../img/debugger-light.png';
+import bgImg from '../img/title-bg.png';
 
 export default function titleSlide() {
   return (
-    <section className="title">
+    <section
+      className="title"
+      data-background-image={bgImg}
+      data-background-opacity="0.5"
+    >
       <img className="logo" src={logo} alt="Gillian logo" />
       <p>Debugging</p>
-      <br />
-      {/* TODO: background image? */}
-      <img
-        src={debuggerImg}
-        className="screenshot"
-        alt="Gillian's debugger interface"
-      />
     </section>
   );
 }
