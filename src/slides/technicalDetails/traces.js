@@ -12,8 +12,8 @@ export default function Traces() {
         <Note>
           <ul>
             <li>
-              Before we can look at traces, we need some kind of internal
-              representation.
+              Before we can look at the traces, we need some kind of internal
+              record.
             </li>
           </ul>
         </Note>
@@ -51,8 +51,8 @@ export default function Traces() {
           <ul>
             <li>
               ...and after restructuring, now it does. The shape of logs are
-              much more intuitive. Branching paths are intuitively represented,
-              and state matching is concealed under the relevant command.
+              much more intuitive. Branching paths are clear, and state matching
+              is concealed under the relevant command.
             </li>
             <li>
               While the functionality&apos;s all there, logging is our biggest

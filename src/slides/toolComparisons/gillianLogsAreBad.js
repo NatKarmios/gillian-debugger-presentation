@@ -12,8 +12,8 @@ export default function GillianLogsAreBad() {
   return (
     <section className="gillian-logs-bad">
       <section data-auto-animate>
-        <h2>What about pre-debugger Gillian?</h2>
-        <Note>And then there&apos;s Gillian, before debugging-</Note>
+        <h2>What about Gillian?</h2>
+        <Note>So what did Gillian have?</Note>
       </section>
       <section
         data-auto-animate
@@ -21,7 +21,7 @@ export default function GillianLogsAreBad() {
         data-background-video-loop
         data-background-video-muted
       >
-        <h2>What about pre-debugger Gillian?</h2>
+        <h2>What about Gillian?</h2>
         <p>Yikes!</p>
         <div className="row">
           <img
@@ -36,14 +36,20 @@ export default function GillianLogsAreBad() {
           />
         </div>
         <Note pad>
-          -with the BIGGEST dumpster fire of a log file - way too verbose, and
+          Only the BIGGEST dumpster fire of a log file - way too verbose, and
           lots of repetition.
         </Note>
         <p className="fragment">
           <i>Way</i> too much logging!
           <Note>
-            The program we verified earlier logs about 80,000 lines, and
-            real-world examples easily reach tens of millions.
+            A toy program would log tens of thousands of lines, and real-world
+            examples easily reach tens of millions.
+          </Note>
+        </p>
+        <p className="fragment">
+          <em>We need to do better!</em>
+          <Note>
+            I hope, from this, you can see how motivated we were to improve.
           </Note>
         </p>
       </section>

@@ -43,8 +43,8 @@ export default function Future() {
             debugger in the coming academic year.
           </p>
           <p>
-            We&apos;d also like to explore this debugger&apos;s potential in
-            industry...
+            Looking to industry, I presented this work to a workshop held at
+            Meta, and people were excited about it.
           </p>
         </Note>
       </section>
@@ -70,12 +70,9 @@ export default function Future() {
         {/* TODO: say i presented to meta in workshop */}
         <Note>
           <p>
-            ...to that end, we looking into collaborating with Meta, to bring
-            our interface to Infer-Pulse.
-          </p>
-          <p>
-            Of course, we&apos;ll keep our eyes peeled for any other projects
-            that could make use of our work.
+            We think this S-DAP concept has a lot of potential, so after
+            defining a more concrete standard, we&apos;ll be looking for
+            opportunities to try things out with other tools.
           </p>
         </Note>
       </section>

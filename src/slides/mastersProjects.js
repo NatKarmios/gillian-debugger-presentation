@@ -1,10 +1,10 @@
 import React from 'react';
-import Note from '../../components/revealComponents/note';
+import Note from '../components/revealComponents/note';
 
-import diagram1 from '../../img/masters/masters-1.png';
-import diagram2 from '../../img/masters/masters-2.png';
-import diagram3 from '../../img/masters/masters-3.png';
-import diagram4 from '../../img/masters/masters-4.png';
+import diagram1 from '../img/masters/masters-1.png';
+import diagram2 from '../img/masters/masters-2.png';
+import diagram3 from '../img/masters/masters-3.png';
+import diagram4 from '../img/masters/masters-4.png';
 
 export default function MastersProjects() {
   const header = (
@@ -19,7 +19,9 @@ export default function MastersProjects() {
       <section data-transition="none-out">
         {header}
         <img src={diagram1} />
-        <Note>This journey began as a series of masters&apos; projects.</Note>
+        <Note>
+          ...motivated enough to get some masters&apos; students to help!
+        </Note>
       </section>
       <section data-transition="none">
         {header}
@@ -46,10 +48,10 @@ export default function MastersProjects() {
         {header}
         <img src={diagram4} />
         <p>
-          <i>...with credit to Sacha for supervising.</i>
+          <i>...with credit to Sacha Ayoun for supervising.</i>
         </p>
         <Note>
-          I should mention, Sacha Ayoun was supervising every step of the way.
+          I should mention, Sacha was supervising every step of the way.
         </Note>
       </section>
     </section>

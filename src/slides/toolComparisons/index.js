@@ -5,15 +5,13 @@ import GillianLogsAreBad from './gillianLogsAreBad';
 import InferPulse from './infer-pulse';
 import KeY from './key';
 import VeriFast from './verifast';
+import ToolFeatures from './toolFeatures';
 
 export default function ToolComparisons() {
   return (
     <>
+      <ToolFeatures />
       <section>
-        <section>
-          <h2 className="title">Related tools</h2>
-          <p className="subtitle">How do they stack up?</p>
-        </section>
         <CBMC />
         <KeY />
         <VeriFast />

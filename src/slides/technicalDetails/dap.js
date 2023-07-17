@@ -29,13 +29,9 @@ export default function DAP() {
         <Note>
           <ul>
             <li>
-              Luckily, the DAP is extensible, so I added this missing
-              expressivity, along with a custom interface in VSCode.
+              Luckily, the DAP is extensible, so I added what I needed to make a
+              custom interface in VSCode.
             </li>
-            {/* <li>
-              We think there&apos;s some potential for these DAP extensions, and
-              perhaps even the interface, to be useful outside of Gillian.
-            </li> */}
           </ul>
         </Note>
       </section>

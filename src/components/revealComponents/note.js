@@ -13,8 +13,6 @@ export default function Note({
   let padElem;
   if (pad) {
     if (pdfModeEnabled) {
-      padElem = <div style={{ height: '100vh' }} />;
-    } else {
       // padElem = (
       //   <>
       //     <br />
@@ -24,6 +22,8 @@ export default function Note({
       //     </p>
       //   </>
       // );
+    } else {
+      padElem = <div style={{ height: '100vh' }} />;
     }
   }
   return (

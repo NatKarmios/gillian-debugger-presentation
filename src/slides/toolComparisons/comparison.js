@@ -14,13 +14,9 @@ export default function Comparison() {
             <td>KeY</td>
             <td>VeriFast</td>
             <td>Infer-Pulse</td>
-            <Note pad>
-              You can see that there are a range of features we&apos;d&nbsp;
-              <i>like</i> to see in symoblic tools
-            </Note>
           </tr>
         </thead>
-        <tr className="fragment">
+        <tr>
           <td>
             <span>View traces</span>
           </td>
@@ -28,65 +24,47 @@ export default function Comparison() {
           <td>✓</td>
           <td>✓</td>
           <td>✓</td>
-          <Note>At the bare minimum, we need to look at traces</Note>
         </tr>
-        <tr className="fragment">
+        <tr>
           <td>
-            <span>Interactive debugger</span>
+            <span>Interactive</span>
           </td>
           <td>✗</td>
           <td>✓</td>
           <td>✓</td>
           <td>✗</td>
-          <Note>Ideally, we want a debugger we can interact with...</Note>
         </tr>
-        <tr className="fragment">
+        <tr>
           <td>
-            <span>Visual debugger</span>
+            <span>Visual</span>
           </td>
           <td>✗</td>
           <td>✓</td>
           <td>✓</td>
           <td>✗</td>
-          <Note>...and one that gives an intuitive view of the trace.</Note>
         </tr>
-        <tr className="fragment">
+        <tr>
           <td>
             <span>Flow control</span>
           </td>
           <td>✗</td>
           <td>✓</td>
-          <td>~</td>
-          <td>✗</td>
-          <Note>
-            Since symbolic execution can branch, it&apos;d be nice to choose
-            what branches we explore.
-          </Note>
-        </tr>
-        <tr className="fragment">
           <td>
-            <span>Compositionality</span>
+            <span style={{ fontSize: '0.8em' }}>kinda</span>
+          </td>
+          <td>✗</td>
+        </tr>
+        <tr>
+          <td>
+            <span>Compositional</span>
           </td>
           <td>✗</td>
           <td>✗</td>
           <td>✓</td>
           <td>✓</td>
-          <Note>
-            Now, compositionality is a big win for scalability, as only changed
-            code needs to be re-verified.
-          </Note>
-        </tr>
-        <tr className="fragment">
-          <td>
-            <span>Engine-agnostic</span>
-          </td>
-          <td>✗</td>
-          <td>✗</td>
-          <td>✗</td>
-          <td>✗</td>
-          <Note>engine-agnostic</Note>
         </tr>
       </table>
+      <Note>As you can see, no tool ticks every box.</Note>
     </section>
   );
 }

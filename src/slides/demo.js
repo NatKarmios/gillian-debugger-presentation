@@ -24,7 +24,6 @@ function llen(x) {
 function Code(props) {
   return (
     <pre>
-      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
       <code {...props} className="wisl">
         {code}
       </code>
@@ -53,10 +52,10 @@ export default function Demo() {
               &lt;RET&gt;
             </li>
             <li>
-              The function&apos;s spec describes the list in memory and the
-              return value. &lt;RET&gt;
+              The function spec describes the list in memory and the return
+              value. &lt;RET&gt;
             </li>
-            <li>...and this predicate defines what we mean by a list.</li>
+            <li>...and this predicate explains what we mean by a list.</li>
             <li>
               Those last two bits, they&apos;re just to do with verification;
               don&apos;t worry about them too much.

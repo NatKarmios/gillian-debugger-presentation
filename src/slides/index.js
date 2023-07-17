@@ -8,14 +8,16 @@ import StudentLab from './studentLab';
 import Future from './future';
 import Demo from './demo';
 import Outtro from './outtro';
+import MastersProjects from './mastersProjects';
 
 export default function Slides() {
   return (
     <>
       <Title />
       <AboutGillian />
-      <Demo />
       <ToolComparisons />
+      <MastersProjects />
+      <Demo />
       <TechnicalDetails />
       <Advantages />
       <StudentLab />
