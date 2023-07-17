@@ -16,7 +16,8 @@ export default function KeY() {
         <h3>KeY</h3>
         <img src={sed} />
         <Note>
-          Their symbolic execution debugger is rather well developed, though
+          Their symbolic execution debugger is rather well developed - this kind
+          of visualisation is exactly what we&apos;re looking for, though
           it&apos;s highly specialised to Java, and not compositional.
         </Note>
       </section>

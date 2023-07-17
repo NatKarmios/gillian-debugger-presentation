@@ -1,1 +1,1 @@
-export const pdfModeEnabled = true;
+export const pdfModeEnabled = false;
