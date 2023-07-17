@@ -67,7 +67,6 @@ export default function Future() {
             <em>Would anyone use it?</em>
           </li>
         </ul>
-        {/* TODO: say i presented to meta in workshop */}
         <Note>
           <p>
             We think this S-DAP concept has a lot of potential, so after

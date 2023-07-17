@@ -22,7 +22,6 @@ export default function Traces() {
         <h3>Tracing execution</h3>
         <img src={oldLogStructureImg} alt="Gillian's log structure" />
         <Note>
-          {/* TODO: rewrite */}
           <ul>
             <li>
               To achieve this, each action is logged to a local database as a

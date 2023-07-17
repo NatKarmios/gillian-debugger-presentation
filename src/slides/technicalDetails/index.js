@@ -10,7 +10,15 @@ export default function TechnicalDetails() {
       <section>
         <h2>Some technical challenges!</h2>
         <em>(and how we solved them)</em>
-        <Note>This task had some interesting problems to solve</Note>
+        <Note>
+          <p>
+            Debugging a with tool like Gillian comes with a unique set of
+            problems; symbolic execution can branch, we want to peek into the
+            state matching process, and SMT solvers add a whole layer of
+            complexity.
+          </p>
+          <p>Here are a few of the most interesting problems we solved.</p>
+        </Note>
       </section>
       <Traces />
       <Interpreter />
