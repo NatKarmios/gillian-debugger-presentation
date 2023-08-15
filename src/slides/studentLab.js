@@ -10,7 +10,10 @@ export default function StudentLab() {
         <h2>Has anyone even used it?</h2>
         <Note>
           <ul>
-            <li>Now that we have a working debugger, we need users!</li>
+            <li>
+              Of course, we won&apos;t know if it&apos;s any good if
+              nobody&apos;s used it
+            </li>
           </ul>
         </Note>
       </section>
@@ -26,11 +29,11 @@ export default function StudentLab() {
         </p>
         <Note>
           <ul>
-            <li>And what better source is there than students?</li>
+            <li>Luckily, we have students for that!</li>
             <li>
-              Last November, we ran a 2-hour lab at the end of Philippa&apos;s
-              separation logic course, where students used the debugger to fix
-              the specs of list algorithms.
+              Last November, we ran a 2-hour lab at the end of course on
+              separation logic, where students used the debugger to fix the
+              specs of list algorithms.
             </li>
             <li>The feedback was overwhelmingly positive!</li>
           </ul>

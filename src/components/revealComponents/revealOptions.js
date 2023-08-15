@@ -1,6 +1,7 @@
 import Reveal from 'reveal.js';
 import RevealNotes from 'reveal.js/plugin/notes/notes';
 import RevealHighlight from 'reveal.js/plugin/highlight/highlight';
+import { pdfModeEnabled } from '../../config';
 
 export default {
   plugins: [RevealNotes, RevealHighlight],
@@ -72,7 +73,7 @@ export default {
   help: true,
 
   // Flags if speaker notes should be visible to all viewers
-  showNotes: false,
+  showNotes: pdfModeEnabled ? 'separate-page' : false,
 
   // Global override for autoplaying embedded media (video/audio/iframe)
   // - null: Media will only autoplay if data-autoplay is present

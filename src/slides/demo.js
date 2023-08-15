@@ -24,7 +24,6 @@ function llen(x) {
 function Code(props) {
   return (
     <pre>
-      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
       <code {...props} className="wisl">
         {code}
       </code>
@@ -37,13 +36,7 @@ export default function Demo() {
     <section>
       <section data-auto-animate>
         <h2>Demo time!</h2>
-        <Note>
-          <ul>
-            <li>
-              I think it&apos;s about time you see the debugger in action.
-            </li>
-          </ul>
-        </Note>
+        <Note>Why don&apos;t we take a look at the result of all that?</Note>
       </section>
       <section data-auto-animate>
         <h2>Demo time!</h2>
@@ -51,18 +44,22 @@ export default function Demo() {
         <Note>
           <ul>
             <li>
-              I&apos;ll quickly talk you through verifying recursive linked-list
-              length in WISL, our toy language. &lt;RET&gt;
+              I&apos;ll quickly talk you through verifying a function in WISL,
+              our toy language. &lt;RET&gt;
             </li>
             <li>
-              Here&apos;s the function body; nothing out of the ordinary.
+              This function computes the length of a linked list, recursively.
               &lt;RET&gt;
             </li>
             <li>
-              We have a pre- and post-condition describing the list in memory
-              and the return value. &lt;RET&gt;
+              The function spec describes the list in memory and the return
+              value. &lt;RET&gt;
             </li>
-            <li>...and the definition of the list predicate.</li>
+            <li>...and this predicate explains what we mean by a list.</li>
+            <li>
+              Those last two bits, they&apos;re just to do with verification;
+              don&apos;t worry about them too much.
+            </li>
           </ul>
         </Note>
       </section>
