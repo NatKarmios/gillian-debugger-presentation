@@ -12,6 +12,10 @@ export default function titleSlide() {
     >
       <img className="logo" src={logo} alt="Gillian logo" />
       <p>Debugging</p>
+      <br />
+      Nat Karmios
+      <br />
+      <em>Imperial College London</em>
     </section>
   );
 }

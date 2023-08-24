@@ -30,7 +30,7 @@ export default function WhatIsGillian() {
         <p>
           <em>parametric</em>
         </p>
-        <p>symbolic execution engine.</p>
+        <p>symbolic execution engine</p>
 
         <Note>It&apos;s parametric across source languages</Note>
       </section>
@@ -42,7 +42,7 @@ export default function WhatIsGillian() {
         <p>
           <em>parametric</em>
         </p>
-        <p>symbolic execution engine.</p>
+        <p>symbolic execution engine</p>
         <p>&nbsp;</p>
         <p>
           <em>...for testing and verification.</em>
