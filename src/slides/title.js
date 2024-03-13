@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img/logo_light.svg';
+import logo from '../img/logo.svg';
 
 import bgImg from '../img/title-bg.png';
 
