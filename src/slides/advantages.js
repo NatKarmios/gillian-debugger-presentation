@@ -3,7 +3,7 @@ import Note from '../components/revealComponents/note';
 
 import maps from '../img/advantages/maps.png';
 import nesting from '../img/advantages/nesting.png';
-import sdap from '../img/advantages/s-dap.png';
+import sdap from '../img/advantages/sedap.png';
 
 export default function Advantages() {
   return (
