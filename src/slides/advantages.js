@@ -45,7 +45,7 @@ export default function Advantages() {
         <Note>
           <p>
             The debugger uses Microsoft&apos;s Debug Adapter Protocol (or DAP)
-            where appropriate, and extends it where functionality is lacking.
+            as a base, and extends it where functionality is lacking.
           </p>
           <p>
             And, given Gillian&apos;s stance on parametricity, much of the
@@ -56,7 +56,7 @@ export default function Advantages() {
             tools and editors, the same way that the DAP provides for concrete
             debugging.
           </p>
-          <p>A symbolic DAP, or S-DAP, if you will.</p>
+          <p>A symbolic execution DAP, or SEDAP, if you will.</p>
         </Note>
       </section>
     </section>

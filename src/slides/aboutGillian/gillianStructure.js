@@ -12,8 +12,8 @@ export default function GillianStructure() {
         <h2>Structure overview</h2>
         <img src={fullImg} />
         <Note>
-          A quick overview of Gillian&apos;s structure; the red parts are
-          language-independant and provided by Gillian, and the blue is
+          A quick overview of Gillian&apos;s structure; the blue parts are
+          language-independant and provided by Gillian, and the red is
           language-specific implementation.
         </Note>
       </section>
@@ -39,7 +39,7 @@ export default function GillianStructure() {
         <Note>
           When debugging, the UI instructs the debugger, which instructs the
           engine to step through execution; all state info, and whatever else,
-          is reported to a local database for the debugger.
+          is reported to a local database for the debugger to refer to.
         </Note>
       </section>
       <section data-transition="none">

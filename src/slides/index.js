@@ -7,6 +7,7 @@ import DebugIntro from './debugIntro';
 import Advantages from './advantages';
 import Future from './future';
 import Outtro from './outtro';
+import Note from '../components/revealComponents/note';
 
 export default function Slides() {
   return (
@@ -16,6 +17,10 @@ export default function Slides() {
       <AboutGillian />
       <WhyDebug />
       <DebugIntro />
+      <section>
+        <h2>Quick demo!</h2>
+        <Note>[DO DEMO]</Note>
+      </section>
       <Advantages />
       <Future />
       <Outtro />

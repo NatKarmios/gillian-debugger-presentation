@@ -32,7 +32,7 @@ export default function WhatIsGillian() {
         </p>
         <p>symbolic execution engine</p>
 
-        <Note>It&apos;s parametric across source languages</Note>
+        <Note>It&apos;s parametric across memory models</Note>
       </section>
       <section data-auto-animate>
         <p>Gillian is a</p>

@@ -1,6 +1,7 @@
 .App {
   height: 100%;
   --blue: #42affa;
+  --red: #e9494b;
 }
 
 .reveal h2,
@@ -39,9 +40,17 @@ img {
   line-height: 0.95;
 }
 
-em, .em {
-  font-style: italic;
+.blue {
   color: var(--blue);
+}
+
+.red {
+  color: var(--red) !important;
+}
+
+em, .em {
+  @extend .blue;
+  font-style: italic;
 }
 
 .exec-modes em,

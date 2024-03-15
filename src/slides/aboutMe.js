@@ -19,9 +19,15 @@ export default function AboutMe() {
             Came to the conclusion that my work wasn&apos;t finished...
           </Note>
         </li>
-        <li className="em fragment">
-          The project continues!
+        <li className="blue fragment">
+          The project continues...
           <Note>And never left.</Note>
+        </li>
+        <li className="red fragment">
+          Now with added PhD!
+          <Note>
+            I <i>really</i> never left.
+          </Note>
         </li>
       </ul>
     </section>

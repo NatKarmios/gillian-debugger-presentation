@@ -2,6 +2,20 @@ import React from 'react';
 import Note from '../components/revealComponents/note';
 
 export default function Future() {
+  const a = (
+    <li>
+      Improvements, feature additions
+      <br />
+      <em>e.g. better errors&#8212;what features do you want?</em>
+    </li>
+  );
+  const b = (
+    <li>
+      Realising potential generality
+      <br />
+      <em>Would anyone use it?</em>
+    </li>
+  );
   return (
     <section className="future-plans">
       <section data-auto-animate>
@@ -10,59 +24,37 @@ export default function Future() {
       </section>
       <section data-auto-animate>
         <h2>What now?</h2>
-        <ul>
-          <li>
-            We&apos;re new to this!
-            <br />
-            <em>All advice is appreciated!</em>
-          </li>
-        </ul>
+        <ul>{a}</ul>
         <Note>
-          First of all, this isn&apos;t our comfort zone as a group. Any advice
-          from more experienced tool developers would be greatly appreciated.
+          First of all, the overall UX needs improvement, and features rounded
+          out---what features would you like to see?
         </Note>
       </section>
       <section data-auto-animate>
         <h2>What now?</h2>
         <ul>
-          <li>
-            <span className="item">We&apos;re new to this!</span>
-            <br />
-            <em>All advice is appreciated!</em>
-          </li>
-          <li>
-            Realising potential generality
-            <br />
-            <em>Would anyone use it?</em>
-          </li>
+          {a}
+          {b}
         </ul>
         <Note>
           <p>
-            We think this S-DAP concept has a lot of potential, so after
+            We think this SEDAP concept has a lot of potential, so after
             defining a more concrete standard, we&apos;ll be looking for
-            opportunities to try things out with other tools.
+            opportunities to try things out with other tools, like Infer.
           </p>
         </Note>
       </section>
       <section data-auto-animate>
         <h2>What now?</h2>
         <ul>
-          <li>
-            <span className="item">We&apos;re new to this!</span>
-            <br />
-            <em>All advice is appreciated!</em>
-          </li>
-          <li>
-            Realising potential generality
-            <br />
-            <em>Would anyone use it?</em>
-          </li>
+          {a}
+          {b}
           <li>Paper soon!</li>
         </ul>
         <Note>
           <p>
-            And I&apos;m finally putting pen to paper to publish all this
-            properly, so watch this space.
+            And like a true research engineer, I have been tricked into writing
+            a paper for all this, so watch this space.
           </p>
         </Note>
       </section>

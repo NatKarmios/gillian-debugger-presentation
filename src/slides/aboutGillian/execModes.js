@@ -39,26 +39,12 @@ export default function ExecModes() {
         <p>Gillian performs:</p>
         <ul>
           <li>plain symbolic execution</li>
+          <p className="note">&#x2BA4; we can debug this</p>
           <li>compositional verification</li>
-          <p className="note">&#x2BA4; we started here</p>
+          <p className="note">&#x2BA4; and this</p>
           <li>automated testing via bi-abduction</li>
         </ul>
-        <Note>We started out with just verification debugging...</Note>
-      </section>
-      <section data-auto-animate>
-        <p>Gillian performs:</p>
-        <ul>
-          <li>plain symbolic execution</li>
-          <p className="note" style={{ color: '#e9494b' }}>
-            &#x2BA4; fresh out the oven!
-          </p>
-          <li>compositional verification</li>
-          <p className="note">&#x2BA4; we started here</p>
-          <li>automated testing via bi-abduction</li>
-        </ul>
-        <Note>
-          ...and just recently added support for regular symbolic debugging.
-        </Note>
+        <Note>Currently, the debugger works for the first two modes.</Note>
       </section>
     </section>
   );
